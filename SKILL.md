@@ -13,7 +13,7 @@ Use the hosted studio at `http://8.141.101.70/image-repair/` for interactive wor
 - For one or more user images, open the hosted studio and use the browser workflow below.
 - For a health check, run `scripts/check_service.sh`.
 - For API configuration or debugging, read `references/model-configuration.md`.
-- For deployment or code changes, locate the `AI-Resume` project and follow the deployment workflow below.
+- For deployment or code changes, use the standalone image repair source checkout and follow the deployment workflow below.
 
 ## Browser workflow
 

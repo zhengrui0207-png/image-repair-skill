@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "帮我批量处理 20 张相同版式的图片，只修复右下角固定区域，并导出为 1080 像素宽的 WebP。",
-      "expected_output": "Chooses a reusable fixed selection, processes the batch, preserves pixels outside the selection, and exports resized WebP files.",
+      "expected_output": "Chooses a reusable fixed selection, processes the batch, preserves pixels outside the selection, and exports all resized WebP files in a valid ZIP.",
       "files": []
     },
     {

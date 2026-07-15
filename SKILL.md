@@ -27,7 +27,7 @@ Use the hosted studio at `http://8.141.101.70/image-repair/` for interactive wor
 5. For repeated layouts, save the current selection as a template and process the queue in a batch.
 6. Review the original/result comparison before export.
 7. Set full-image or selection crop, original or custom dimensions, and PNG/JPG/WebP output.
-8. Download the current result. Remove unfinished queue items with the `×` button when needed.
+8. Download one result from the preview or use `批量下载` to package every completed result into a ZIP. Remove unfinished queue items with the `×` button when needed.
 
 ## AI repair rules
 
@@ -63,6 +63,7 @@ When the source checkout contains `scripts/deploy-ecs.sh`:
 - Original/result previews render.
 - AI test output changes the selected area and leaves all outside pixels identical.
 - Crop and custom-size export produce the requested pixel dimensions and file format.
+- Batch download produces a valid ZIP containing every completed result and skips unfinished items.
 - `http://8.141.101.70/` remains available after deployment.
 
 ## Final report

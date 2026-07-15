@@ -12,6 +12,7 @@ Codex Skill for operating, testing, and maintaining the selected-region image re
 - Seedream and OpenAI-compatible AI inpainting
 - Selection-only compositing
 - Crop, resize, PNG/JPG/WebP export
+- ZIP download for all completed queue results
 - Aliyun ECS deployment and health verification
 
 ## Install for Codex

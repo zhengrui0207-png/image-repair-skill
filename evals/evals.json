@@ -1,0 +1,23 @@
+{
+  "skill_name": "image-repair-studio",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我批量处理 20 张相同版式的图片，只修复右下角固定区域，并导出为 1080 像素宽的 WebP。",
+      "expected_output": "Chooses a reusable fixed selection, processes the batch, preserves pixels outside the selection, and exports resized WebP files.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Seedream 返回的图片和原图没有变化，帮我检查选区和接口配置。",
+      "expected_output": "Checks display-to-image selection mapping, Seedream source/guide inputs, prompt, response parsing, and selection-only compositing without requesting the API key in chat.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "检查线上图片修复工具是否正常，同时不能影响服务器根路径的求职顾问。",
+      "expected_output": "Runs the bundled health check, verifies both URLs, and reports the isolated service status.",
+      "files": []
+    }
+  ]
+}

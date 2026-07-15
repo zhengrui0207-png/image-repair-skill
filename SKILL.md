@@ -53,7 +53,7 @@ When the source checkout contains `scripts/deploy-ecs.sh`:
 3. Verify the image repair URL returns HTTP 200.
 4. Verify the root URL still returns HTTP 200.
 5. Verify `image-repair-studio` is online in PM2 and Nginx configuration remains valid.
-6. Do not overwrite remote `.env`, databases, uploads, or the `ai-resume-web` PM2 process.
+6. Do not overwrite remote `.env`, databases, uploads, or unrelated PM2 processes.
 
 ## Verification checklist
 

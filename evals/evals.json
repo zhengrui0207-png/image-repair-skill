@@ -15,7 +15,7 @@
     },
     {
       "id": 3,
-      "prompt": "检查线上图片修复工具是否正常，同时不能影响服务器根路径的求职顾问。",
+      "prompt": "检查线上图片修复工具是否正常，同时不能影响服务器根路径的其他服务。",
       "expected_output": "Runs the bundled health check, verifies both URLs, and reports the isolated service status.",
       "files": []
     }
